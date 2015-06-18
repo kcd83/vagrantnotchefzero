@@ -1,0 +1,13 @@
+{
+  "name": "testenv",
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "cookbook_versions": {
+    "yum": "= 3.6.0"
+  },
+  "default_attributes": {
+    "hello" : "world"
+  },
+  "override_attributes": {
+  }
+}
